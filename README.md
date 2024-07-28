@@ -25,3 +25,11 @@ or
 ```
 curl https://raw.githubusercontent.com/Wraient/DiscordTheme/main/ruDiscord.theme.css > ruDiscord.theme.css
 ```
+# Preview 
+
+![Preview](https://raw.githubusercontent.com/Wraient/DiscordTheme/main/preview/240728_18h03m58s_screenshot.png)
+
+![Preview](https://raw.githubusercontent.com/Wraient/DiscordTheme/main/preview/240728_18h07m00s_screenshot.png)
+
+![Preview](https://raw.githubusercontent.com/Wraient/DiscordTheme/main/preview/240728_18h10m52s_screenshot.png)
+
