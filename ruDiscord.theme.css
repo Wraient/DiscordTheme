@@ -17,6 +17,6 @@
     --background-solid: black; /* chat */
     --background-solid-dark: black; /* side bar */
     --background-solid-darker: black; /* server list */
-    --accent: 255, 255, 255; /* reply thing */
+    --accent: 155, 155, 0; /* reply thing */
     --accent-alt: 100, 100, 100; /* scroll bar */
 }
