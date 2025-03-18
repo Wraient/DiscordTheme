@@ -14,9 +14,9 @@
     --avatar-size: 32px; 
     --background-image: url('https://i.imgur.com/7SbtKvw.png');
     --home-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/8488ac92078829.5e45a9a056b37.gif');
-    --background-solid: 255, 70, 162; /* chat */
-    --background-solid-dark: 255, 70, 162; /* side bar */
-    --background-solid-darker: 255, 70, 162; /* server list */
+    --background-solid: pink; /* chat */
+    --background-solid-dark: pink; /* side bar */
+    --background-solid-darker: pink; /* server list */
     --accent: 155, 155, 0; /* reply thing */
     --accent-alt: 100, 100, 100; /* scroll bar */
 }
