@@ -28,8 +28,8 @@
      --background-solid-darker: #0c0e12;
      --accent: 37, 172, 232;
      --accent-alt: 29, 101, 134;
-     --md-black: 0, 0, 0;
-     --dm-white: 255, 255, 255;
+     --md-black: 255, 70, 162;
+     --dm-white: 0, 0, 0;
      /* BlurpleRecolor */
      --accentcolor: var(--accent);
      --vaccentcolor-hover: rgb(var(--accent));
