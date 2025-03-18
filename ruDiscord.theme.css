@@ -28,3 +28,19 @@
     --header-primary: #000000;
     --interactive-normal: #000000;
 }
+
+/* Add background pattern */
+body {
+    background: url('https://i.imgur.com/7SbtKvw.png') repeat !important;
+    background-color: rgba(0, 0, 0, 0.7) !important; /* This adds a dark overlay */
+}
+
+/* Make app background transparent to show the pattern */
+#app-mount {
+    background: transparent !important;
+}
+
+/* Add a semi-transparent overlay to make content readable */
+.app-2rEoOp {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
