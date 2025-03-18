@@ -28,8 +28,8 @@
      --background-solid-darker: #0c0e12;
      --accent: 37, 172, 232;
      --accent-alt: 29, 101, 134;
-     --md-white: 0, 0, 0;
-     --dm-black: 255, 255, 255;
+     --md-black: 255, 255, 255;
+     --dm-white: 0, 0, 0;
      /* BlurpleRecolor */
      --accentcolor: var(--accent);
      --vaccentcolor-hover: rgb(var(--accent));
@@ -49,25 +49,25 @@
      --background-floating: var(--background-solid);
      --background-secondary: var(--background-solid);
      --background-accent: var(--background-solid);
-     --background-message-hover: rgba(var(--md-white), 0.4);
+     --background-message-hover: rgba(var(--md-black), 0.4);
      --channeltextarea-background: transparent;
-     --activity-card-background: rgba(var(--dm-black), 0.05);
+     --activity-card-background: rgba(var(--dm-white), 0.05);
      --deprecated-store-bg: transparent;
-     --background-modifier-hover: rgba(var(--md-white), 0.3);
-     --background-modifier-active: rgba(var(--md-white), 0.3);
-     --background-modifier-selected: rgba(var(--md-white), 0.6);
-     --elevation-low: inset 0 -1px 0 0 rgba(var(--md-white), 0.3);
-     --channels-default: rgba(var(--dm-black), 0.3);
+     --background-modifier-hover: rgba(var(--md-black), 0.3);
+     --background-modifier-active: rgba(var(--md-black), 0.3);
+     --background-modifier-selected: rgba(var(--md-black), 0.6);
+     --elevation-low: inset 0 -1px 0 0 rgba(var(--md-black), 0.3);
+     --channels-default: rgba(var(--dm-white), 0.3);
      --deprecated-quickswitcher-input-background: var(--background-solid);
-     --header-primary: rgba(var(--dm-black), 1);
-     --header-secondary: rgba(var(--dm-black), 0.6);
-     --text-normal: rgba(var(--dm-black), 0.6);
+     --header-primary: rgba(var(--dm-white), 1);
+     --header-secondary: rgba(var(--dm-white), 0.6);
+     --text-normal: rgba(var(--dm-white), 0.6);
      --text-muted: #8a8e94;
-     --interactive-muted: rgba(var(--dm-black), 0.15);
-     --interactive-normal: rgba(var(--dm-black), 0.5);
-     --interactive-hover: rgba(var(--dm-black), 0.75);
-     --interactive-active: rgba(var(--dm-black), 1);
-     --deprecated-card-bg: rgba(var(--dm-black), 0.05);
+     --interactive-muted: rgba(var(--dm-white), 0.15);
+     --interactive-normal: rgba(var(--dm-white), 0.5);
+     --interactive-hover: rgba(var(--dm-white), 0.75);
+     --interactive-active: rgba(var(--dm-white), 1);
+     --deprecated-card-bg: rgba(var(--dm-white), 0.05);
      --text-link: rgba(var(--accent), 1);
      --focus-primary: rgba(var(--accent), 1);
      --modal-background: var(--background-solid);
@@ -107,8 +107,8 @@
  /* Titlebar */
  
  div[class*="typeWindows-"] {
-     --background-modifier-hover: rgba(var(--dm-black), 0.05);
-     --background-modifier-active: rgba(var(--dm-black), 0.075);
+     --background-modifier-hover: rgba(var(--dm-white), 0.05);
+     --background-modifier-active: rgba(var(--dm-white), 0.075);
      height: 26px;
  }
  
@@ -133,7 +133,7 @@
      left: 0;
      width: 100%;
      height: 30px;
-     background: rgba(var(--md-white), 0.85);
+     background: rgba(var(--md-black), 0.85);
      z-index: -1;
  }
  
@@ -145,11 +145,11 @@
  }
  ul[data-list-id='guildsnav'] {
      --background-secondary: var(--background-solid);
-         --background-primary: rgba(var(--dm-black), 0.1);
+         --background-primary: rgba(var(--dm-white), 0.1);
      margin-bottom: 70px;
-     background-color: rgba(var(--md-white), 0.6);
-     border-right: 1px solid rgba(var(--md-white), 0.2);
-     box-shadow: inset -10px 0px 20px -10px rgba(var(--md-white), 0.3);
+     background-color: rgba(var(--md-black), 0.6);
+     border-right: 1px solid rgba(var(--md-black), 0.2);
+     box-shadow: inset -10px 0px 20px -10px rgba(var(--md-black), 0.3);
  }
  
  ul[data-list-id='guildsnav'] ::-webkit-scrollbar {
@@ -181,7 +181,7 @@
  }
  
  span[class^="expandedFolderBackground-"] {
-     --background-secondary: rgba(var(--md-white), 0.25);
+     --background-secondary: rgba(var(--md-black), 0.25);
      border-radius: 14px;
      width: 40px;
      left: 16px;
@@ -212,8 +212,8 @@
      transition: 150ms ease;
      opacity: 0.5;
      background-color: var(--background-solid) !important;
-     color: rgba(var(--dm-black), 0.3) !important;
-     border: 1px dashed rgba(var(--dm-black), 0.3);
+     color: rgba(var(--dm-white), 0.3) !important;
+     border: 1px dashed rgba(var(--dm-white), 0.3);
      border-radius: 50px;
  }
  
@@ -233,7 +233,7 @@
  div[class^="sidebar-"] nav,
  #private-channels {
      background: var(--background-secondary) !important;
-     --background-tertiary: rgba(var(--md-white), 0.35);
+     --background-tertiary: rgba(var(--md-black), 0.35);
  }
  
  div[class^="sidebar-"]>nav>div[class^="searchBar"] {
@@ -242,11 +242,11 @@
  
  /* members wrapper */
  .container-2o3qEW {
-     --background-secondary: rgba(var(--md-white), 0.4);
-     --background-modifier-hover: rgba(var(--dm-black), 0.07);
+     --background-secondary: rgba(var(--md-black), 0.4);
+     --background-modifier-hover: rgba(var(--dm-white), 0.07);
      --background-modifier-active: var(--background-modifier-hover);
-     --background-modifier-selected: rgba(var(--dm-black), 0.07);
-     background: rgb(var(--md-white), 0.9);
+     --background-modifier-selected: rgba(var(--dm-white), 0.07);
+     background: rgb(var(--md-black), 0.9);
  }
  
  div[data-list-id^="members-"][class*="scrollerBase-"] {
@@ -259,8 +259,8 @@
  
  div[class^='nowPlayingColumn'] {
      --background-secondary: transparent;
-     --background-primary: rgba(var(--md-white), 0.5);
-     --background-modifier-hover: rgba(var(--dm-black), 0.075);
+     --background-primary: rgba(var(--md-black), 0.5);
+     --background-modifier-hover: rgba(var(--dm-white), 0.075);
  }
  div[class^="members-"] div[class^="member-"] {
      background-color: transparent;
@@ -279,7 +279,7 @@
      justify-content: center;
      height: 54px;
      --background-accent: rgba(var(--accent), 1);
-     --background-modifier-hover: rgba(var(--md-white), 0.25);
+     --background-modifier-hover: rgba(var(--md-black), 0.25);
  }
  
  
@@ -298,15 +298,15 @@
  #app-mount>div[class^="appDevToolsWrapper-"] {
      --background-primary: transparent;
      --background-tertiary: transparent;
-     --background-secondary: rgba(var(--md-white), 0.7);
-     background-color: rgba(var(--md-white), 0.4);
+     --background-secondary: rgba(var(--md-black), 0.7);
+     background-color: rgba(var(--md-black), 0.4);
  }
  div[class^="notAppAsidePanel-"]>div[class^="app-"]>div[class^="app-"],
  div[class^="app-"]>div[class^="bg-"] {
      background-color: transparent;
  }
  div[class*="baseLayer-"]>div[class^="container-"] {
-     background-color: rgb(var(--md-white), 0.4);
+     background-color: rgb(var(--md-black), 0.4);
  }
  
  nav+div [class^='sidebar-'],
@@ -322,9 +322,9 @@
  
  div[class^='base-']>div,
  section[class*="themed-"] {
-     --background-secondary: rgba(var(--md-white), 0.7);
-     --background-tertiary: rgba(var(--dm-black), 0.05);
-     --background-primary: rgba(var(--md-white), 0.8);
+     --background-secondary: rgba(var(--md-black), 0.7);
+     --background-tertiary: rgba(var(--dm-white), 0.05);
+     --background-primary: rgba(var(--md-black), 0.8);
  }
  
  #app-mount>div:not([class^="appDevToolsWrapper-"]),
@@ -341,8 +341,8 @@
  section[class*="themed-"] {
      height: 54px;
      box-shadow: var(--elevation-low);
-     background-color: rgb(var(--md-white), 0.925) !important;
-     --background-secondary: rgba(var(--dm-black), 0.1);
+     background-color: rgb(var(--md-black), 0.925) !important;
+     --background-secondary: rgba(var(--dm-white), 0.1);
  }
  
  section>div>a[href*="support.discord.com"] {
@@ -370,16 +370,16 @@
  }
  
  section div[class^="toolbar"]>div[role][class*="selected-"] {
-     background-color: rgba(var(--dm-black), 0.1);
+     background-color: rgba(var(--dm-white), 0.1);
  }
  
  
  /* Panels */
  
  div[class^='sidebar-']>section {
-     --background-primary: rgba(var(--dm-black), 0.07);
-     --background-secondary: rgba(var(--dm-black), 0.1);
-     --background-secondary-alt: rgba(var(--md-white), 0.95);
+     --background-primary: rgba(var(--dm-white), 0.07);
+     --background-secondary: rgba(var(--dm-white), 0.1);
+     --background-secondary-alt: rgba(var(--md-black), 0.95);
      margin-bottom: 70px;
  }
  
@@ -401,7 +401,7 @@
  /* Content */
  
  div[class^='chat'] {
-     --background-floating: rgba(var(--md-white), 0.5);
+     --background-floating: rgba(var(--md-black), 0.5);
      background: transparent;
  }
  
@@ -419,13 +419,13 @@
  
  div[data-list-id="chat-messages"] {
      --background-primary: transparent;
-     --background-secondary: rgba(var(--dm-black), 0.05);
-     --background-accent: rgba(var(--dm-black), 0.1);
+     --background-secondary: rgba(var(--dm-white), 0.05);
+     --background-accent: rgba(var(--dm-white), 0.1);
  }
  
  div[class^="channelTextArea-"] {
      --background-secondary: transparent;
-     box-shadow: inset 0 0 0 2px rgba(var(--dm-black), 0.1);
+     box-shadow: inset 0 0 0 2px rgba(var(--dm-white), 0.1);
      transition: 250ms ease;
      margin-bottom: 24px;
      margin-top: 12px;
@@ -452,7 +452,7 @@
  }
  
  div[id^="chat-messages-"] {
-     --background-primary: rgba(var(--md-white), 0.5);
+     --background-primary: rgba(var(--md-black), 0.5);
  }
  
  div[id^="chat-messages-"]>div>[class^="avatar-"] {
@@ -497,15 +497,15 @@
  
  pre code.hljs {
      border: none;
-     background-color: rgba(var(--dm-black), 0.1);
-     color: rgba(var(--dm-black), 0.7);
+     background-color: rgba(var(--dm-white), 0.1);
+     color: rgba(var(--dm-white), 0.7);
      padding: 1em;
  }
  
  html code.inline,
  html code.inline {
-     background: rgba(var(--dm-black), 0.1);
-     color: rgba(var(--dm-black), 0.7);
+     background: rgba(var(--dm-white), 0.1);
+     color: rgba(var(--dm-white), 0.7);
      padding: 0.3em 0.6em;
      border-radius: 3px;
  }
@@ -516,7 +516,7 @@
  div[aria-label*="_SETTINGS"],
  div[aria-label*="_DEBUG"] {
      --background-primary: transparent;
-     --background-secondary: rgba(var(--md-white), 0.7);
+     --background-secondary: rgba(var(--md-black), 0.7);
  }
  
  div[class^="sidebarRegionScroller-"]>nav {
@@ -524,15 +524,15 @@
  }
  
  div[class^="contentRegion-"] {
-     --background-primary: rgba(var(--md-white), 0.8);
+     --background-primary: rgba(var(--md-black), 0.8);
  }
  
  div[class^="contentRegion-"] div[style^="overflow: hidden scroll"] {
      background-color: transparent;
-     --background-primary: rgba(var(--md-white), 0.1);
-     --background-secondary: rgba(var(--md-white), 0.2);
-     --background-secondary-alt: rgba(var(--md-white), 0.25);
-     --background-tertiary: rgba(var(--dm-black), 0.1);
+     --background-primary: rgba(var(--md-black), 0.1);
+     --background-secondary: rgba(var(--md-black), 0.2);
+     --background-secondary-alt: rgba(var(--md-black), 0.25);
+     --background-tertiary: rgba(var(--dm-white), 0.1);
  }
  
  div[aria-label*="_SETTINGS"] aside>div {
@@ -555,8 +555,8 @@
  nav>div[role="tablist"],
  .bd-tab-bar {
      --background-accent: rgba(var(--accent));
-     --background-modifier-hover: rgba(var(--dm-black), 0.05);
-     --background-modifier-active: rgba(var(--dm-black), 0.075);
+     --background-modifier-hover: rgba(var(--dm-white), 0.05);
+     --background-modifier-active: rgba(var(--dm-white), 0.075);
      --background-modifier-selected: rgba(var(--accent), 0.25);
  }
  
@@ -564,7 +564,7 @@
  /* Server Discovery */
  
  div[class^="sidebar"]+[class^="pageWrapper"] {
-     --background-secondary: rgba(var(--md-white), 0.8);
+     --background-secondary: rgba(var(--md-black), 0.8);
      background-color: var(--background-secondary);
  }
  
@@ -572,7 +572,7 @@
  /* Crash Page */
  
  div[class*="errorPage"] {
-     --background-secondary: rgba(var(--md-white), 0.7) !important;
+     --background-secondary: rgba(var(--md-black), 0.7) !important;
  }
  
  
@@ -669,7 +669,7 @@
  
  #app-mount .payment-xT17Mq {
      background-color: transparent;
-     border-bottom-color: rgba(var(--dm-black), 0.025);
+     border-bottom-color: rgba(var(--dm-white), 0.025);
  }
  
  #app-mount .bottomDivider-1K9Gao,
@@ -717,7 +717,7 @@
  
  .css-3vaxre-menu,
  .tierMarker-5HkGJ_[style] {
-     border-color: rgba(var(--dm-black), 0.025) !important;
+     border-color: rgba(var(--dm-white), 0.025) !important;
  }
  
  #app-mount .searchAnswer-3Dz2-q,
@@ -734,7 +734,7 @@
  }
  
  #app-mount .perksModal-fSYqOq {
-     background: rgba(var(--md-white), 0.7);
+     background: rgba(var(--md-black), 0.7);
  }
  
  #app-mount .card-FDVird:before {
