@@ -14,9 +14,16 @@
     --avatar-size: 32px; 
     --background-image: url('https://i.imgur.com/7SbtKvw.png');
     --home-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/8488ac92078829.5e45a9a056b37.gif');
-    --background-solid: 255, 70, 162; /* chat */
-    --background-solid-dark: 255, 70, 162; /* side bar */
+    --background-solid: 255, 105, 180; /* chat - hot pink */
+    --background-solid-dark: 255, 5, 129; /* DMs - #FF0581 converted to RGB */
     --background-solid-darker: 255, 70, 162; /* server list */
     --accent: 155, 155, 0; /* reply thing */
     --accent-alt: 100, 100, 100; /* scroll bar */
+}
+
+/* Add this to change text color to black */
+.theme-dark {
+    --text-normal: #000000;
+    --header-primary: #000000;
+    --interactive-normal: #000000;
 }
