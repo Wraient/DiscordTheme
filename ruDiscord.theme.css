@@ -1,8 +1,8 @@
 /**
  * @name ruDiscord
  * @author @wraient
- * @version 1.0.0
- * @description A cold, dark & frosty theme.
+ * @version 2.0.0
+ * @description Hot pink.
  * shamelessly copied from https://github.com/DiscordStyles/DarkMatter/
  * @source https://github.com/wraient/DiscordTheme/
 */
@@ -27,39 +27,4 @@
     --text-normal: #000000;
     --header-primary: #000000;
     --interactive-normal: #000000;
-}
-
-/* Reset and force background pattern */
-#app-mount::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: url('https://i.imgur.com/7SbtKvw.png') repeat;
-    opacity: 0.7;
-    pointer-events: none;
-}
-
-/* Make sure app elements are semi-transparent */
-.container-2cd8Mz,
-.container-2o3qEW,
-.members-3WRCEx,
-.sidebar-1tnWFu,
-.chat-2ZfjoI,
-.container-2cd8Mz,
-.container-1NXEtd,
-.panels-3wFtMD {
-    background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
-/* Ensure base app background is transparent */
-#app-mount {
-    background: transparent !important;
-}
-
-.app-2rEoOp {
-    background: transparent !important;
 }

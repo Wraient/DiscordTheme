@@ -23,13 +23,13 @@
      --avatar-size: 32px;
      --background-image: url('https://i.imgur.com/7SbtKvw.png');
      --home-image: url('https://i.imgur.com/233d55Y.gif');
-     --background-solid: #FF46A2;
-     --background-solid-dark: #FF46A2;
-     --background-solid-darker: #FF46A2;
+     --background-solid: #000000;
+     --background-solid-dark: #000000;
+     --background-solid-darker: #0c0e12;
      --accent: 37, 172, 232;
      --accent-alt: 29, 101, 134;
-     --md-black: 255, 70, 162;
-     --dm-white: 0, 0, 0;
+     --md-black: 0, 0, 0;
+     --dm-white: 255, 255, 255;
      /* BlurpleRecolor */
      --accentcolor: var(--accent);
      --vaccentcolor-hover: rgb(var(--accent));
