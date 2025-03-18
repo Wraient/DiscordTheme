@@ -19,12 +19,30 @@
     --background-solid-darker: #FF46A2; /* server list */
     --accent: 155, 155, 0;
     --accent-alt: 100, 100, 100;
-    --dm-white: 0, 0, 0; /* This will make text black */
+    --dm-white: 255, 255, 255; /* Reset to white for profile backgrounds */
 }
 
-/* Add this to change text color to black */
+/* Adjust text colors and opacity */
 .theme-dark {
-    --text-normal: #000000;
-    --header-primary: #000000;
-    --interactive-normal: #000000;
+    --text-normal: rgba(0, 0, 0, 0.7); /* 70% opacity black text */
+    --header-primary: rgba(0, 0, 0, 0.8); /* 80% opacity black headers */
+    --interactive-normal: rgba(0, 0, 0, 0.75); /* 75% opacity black interactive elements */
+    --channels-default: rgba(0, 0, 0, 0.7); /* Channel text opacity */
+    --text-muted: rgba(0, 0, 0, 0.5); /* Muted text with 50% opacity */
+}
+
+/* Fix profile backgrounds */
+.userPopout-2j1gM4,
+.root-8LYsGj,
+.body-1Ukv50,
+.topSection-13QKHs {
+    background-color: var(--background-solid) !important;
+}
+
+/* Ensure profile text remains visible */
+.headerText-1-WmDq,
+.username-3JLfHz,
+.discriminator-1WX5xJ,
+.nickname-t08Mck {
+    color: rgba(0, 0, 0, 0.8) !important;
 }
