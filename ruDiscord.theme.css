@@ -1,8 +1,8 @@
 /**
  * @name ruDiscord
  * @author @wraient
- * @version 1.0.0
- * @description A cold, dark & frosty theme.
+ * @version 2.0.0
+ * @description Hot pink.
  * shamelessly copied from https://github.com/DiscordStyles/DarkMatter/
  * @source https://github.com/wraient/DiscordTheme/
 */
@@ -13,10 +13,36 @@
 :root {
     --avatar-size: 32px; 
     --background-image: url('https://i.imgur.com/7SbtKvw.png');
-    --home-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/8488ac92078829.5e45a9a056b37.gif');
-    --background-solid: black; /* chat */
-    --background-solid-dark: black; /* side bar */
-    --background-solid-darker: black; /* server list */
-    --accent: 155, 155, 0; /* reply thing */
-    --accent-alt: 100, 100, 100; /* scroll bar */
+    --home-image: url('https://c.tenor.com/-CuQ9V5A7FcAAAAC/tenor.gif');
+    --background-solid: #FF69B4; /* chat - hot pink (using hex for better compatibility) */
+    --background-solid-dark: #FF0581; /* DMs - your specified color */
+    --background-solid-darker: #FF46A2; /* server list */
+    --accent: 155, 155, 0;
+    --accent-alt: 100, 100, 100;
+    --dm-white: 255, 255, 255; /* Reset to white for profile backgrounds */
+}
+
+/* Adjust text colors and opacity */
+.theme-dark {
+    --text-normal: rgba(0, 0, 0, 0.7); /* 70% opacity black text */
+    --header-primary: rgba(0, 0, 0, 0.8); /* 80% opacity black headers */
+    --interactive-normal: rgba(0, 0, 0, 0.75); /* 75% opacity black interactive elements */
+    --channels-default: rgba(0, 0, 0, 0.7); /* Channel text opacity */
+    --text-muted: rgba(0, 0, 0, 0.5); /* Muted text with 50% opacity */
+}
+
+/* Fix profile backgrounds */
+.userPopout-2j1gM4,
+.root-8LYsGj,
+.body-1Ukv50,
+.topSection-13QKHs {
+    background-color: var(--background-solid) !important;
+}
+
+/* Ensure profile text remains visible */
+.headerText-1-WmDq,
+.username-3JLfHz,
+.discriminator-1WX5xJ,
+.nickname-t08Mck {
+    color: rgba(0, 0, 0, 0.8) !important;
 }
